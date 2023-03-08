@@ -1,0 +1,83 @@
+@media screen and (max-width:880px) {
+ 
+  body{
+    background-image: url(../imagens/fundopequeno.png);
+  }
+
+  .container_img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 13%;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+    
+  }
+
+  #img_menu {
+    width: 50px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+ 
+  
+ 
+  #drop > a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #39be63;
+    border: 1px solid white;
+    color: black;
+    font-family: 'Rampart One', cursive;
+    transition-duration:.3s ;
+    
+  }
+
+  #drop > a:hover {
+    background-color: #fcd300;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .img_eu {
+    margin-top: 0;
+  }
+
+  .container_botao {
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 100px;
+  }
+
+  .container_msg{
+    display: block;
+    text-align: center;
+  }
+
+  .container_projetos {
+    display: flex;
+    max-width: 550px;
+    height: 200px;
+    border: 0;
+    margin-top: 40px;
+ }
+}
+
+@media screen and (max-width:1050px){
+  #logo{
+    display: none;
+   }
+}

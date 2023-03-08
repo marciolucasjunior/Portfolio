@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rampart One', cursive;
+    height: 100vh;
+    background-image: url(../imagens/fundo.webp)
+}
+
+.menu {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+/*   border: 1px solid black; */
+}
+
+#logo {
+ /*   border: 1px solid black; */
+    margin: auto;
+    margin-left: 0;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+  
+
+}
+
+nav > a {
+  /*  border: 1px solid black; */
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Rampart One', cursive;
+
+   
+}
+
+nav > a:hover {
+   
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meu_readme > a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+main{
+ /*   border: 1px solid black; */
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 7%;
+}
+
+h3 {
+    margin-top: 6%;
+}
+
+.container_img{
+    display: flex;
+   /* border: 1px solid black; */
+    align-items: center;
+} 
+
+
+#drop {
+    display: none;
+}
+
+.img_eu {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid white;
+    border-radius: 50%;
+   
+     
+}
+.container_botao {
+    display: flex;
+    width: 240px;
+    margin: auto;
+   
+    margin-left: 10%;
+  /*  border: 1px solid black; */
+   
+}
+
+.img_in {
+     
+    width: 25px;
+    text-align: center;
+    
+}
+
+.img_git {
+    width: 25px;
+   
+}
+
+.linkdin {
+    font-weight: bolder;
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color:  black;
+    background-color: #b8e05a;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.linkdin:hover {
+    background-color:  #fcd300;
+}
+
+.github{
+    font-weight: bolder;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    background-color:  #b8e05a;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.github:hover {
+    background-color:  #fcd300;
+}
+
+.container_msg {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+hr {
+    border: 2px solid black;
+    margin-top: 80px;
+   
+}
+
+
+.container_projetos {
+   display: flex;
+   max-width: 550px;
+   height: 250px;
+   border: 0;
+   margin-top: 40px;
+   
+  
+}
+
+.img_projetos{
+    
+    width:100%;
+    border: 4px solid #39be63;
+   
+}
+
+
+.meu_readme {
+    font-size: 25px;
+    margin-top: 2%;
+    max-width: 800px;
+   
+}
+
+.meu_readme > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    border-radius: 2px;
+    margin-top: 5px;
+
+}
+
+
+
+.certificados{
+    margin: auto;
+    padding: 30px;
+    max-width: 900px;
+   
+}
+
+.img_certificados{
+ width: 100%;
+ border: 4px solid #39be63;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    animation: jumping 3s linear infinite;
+}
+
+@keyframes jumping {
+    from {transform: translateY(-15px) ;}
+    50%{transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
+
+footer{
+  
+    font-size: 30px;
+    text-align: center;
+    padding: 80px;
+    
+}

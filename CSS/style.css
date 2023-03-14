@@ -56,6 +56,11 @@ nav > a:hover {
     border-bottom: 2px solid black;
 }
 
+nav > a:active{
+    transform: scale(0.95);
+    border-bottom: 2px solid black;
+}
+
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;

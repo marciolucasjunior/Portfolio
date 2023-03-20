@@ -179,8 +179,7 @@ hr {
 
 .container_projetos {
    display: flex;
-   max-width: 550px;
-   height: 250px;
+   max-width: 750px;
    border: 0;
    margin-top: 40px;
    
